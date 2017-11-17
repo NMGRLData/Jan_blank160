@@ -1,0 +1,73 @@
+{
+    "aliquot": 166, 
+    "analysis_type": "blank_extractionline", 
+    "collection_version": "0.1:0.1", 
+    "comment": "1 minute microbone and getters", 
+    "commit": "b1b621cf402920ae97111a806957e9a8f36d9840", 
+    "conditionals": null, 
+    "detectors": {
+        "AX": {
+            "deflection": 165.0, 
+            "gain": 0
+        }, 
+        "CDD": {
+            "deflection": 10.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 320.0, 
+            "gain": 0
+        }, 
+        "L2": {
+            "deflection": 725.0, 
+            "gain": 0
+        }
+    }, 
+    "extraction": "jan_microbone_CO2_line_NP10_D50.py", 
+    "identifier": "be-01-J", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NoIrradiation", 
+    "irradiation_level": "A", 
+    "irradiation_position": 13, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD"
+        }, 
+        "Ar37": {
+            "detector": "L2"
+        }, 
+        "Ar38": {
+            "detector": "L1"
+        }, 
+        "Ar39": {
+            "detector": "AX"
+        }, 
+        "Ar40": {
+            "detector": "H1"
+        }, 
+        "Ar41": {
+            "detector": "H2"
+        }
+    }, 
+    "mass_spectrometer": "Jan", 
+    "material": "Blank", 
+    "measurement": "jan_unknown400_120.py", 
+    "project": "REFERENCES", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Jan_blank160", 
+    "sample": "blank_extraction_line", 
+    "spec_sha": "7a53a104ce01382abf01c738e0410fda37641fac", 
+    "timestamp": "2016-06-16T08:48:20.941094", 
+    "tripped_conditional": null, 
+    "username": "", 
+    "uuid": "d28e8e5b-0894-407a-a1d3-3a71a2725485"
+}
